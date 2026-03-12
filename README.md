@@ -3,7 +3,10 @@
 This repository contains the design and frontend implementation for the "Institute of Digital Risk" (IDR) assignments. The project requires the creation of a brand logo and a responsive single-page homepage, built exclusively with vanilla HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
-Access the live implementation by opening the `index.html` file in any modern web browser.
+Access the live implementation here: **[https://idr-one.vercel.app/](https://idr-one.vercel.app/)**
+*(Alternatively, you can open the `index.html` file in any modern web browser).*
+
+
 
 ## 🎨 Deliverables
 
