@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDR | Institute of Digital Risk</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <a href="#" class="brand">
+                <img src="assets/logo-icon.svg" alt="IDR Logo" class="brand-icon">
+                <span class="brand-text">IDR</span>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="#community">Community</a>
+                <a href="#contact">Contact</a>
+                <a href="#contact" class="btn-primary mobile-cta">Get Started</a>
+            </div>
+            
+            <a href="#contact" class="btn-primary desktop-cta">Get Started</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">● Now Enrolling for 2024</span>
+                    <h1 class="hero-title">Advancing the <span>Future</span> of Digital Risk</h1>
+                    <p class="hero-subtitle">
+                        Preparing professionals for cyber risk, digital governance, and AI risk management through industry collaboration and real-world projects.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#programs" class="btn-primary">Explore Programs <span class="arrow">→</span></a>
+                        <a href="#contact" class="btn-secondary">Hire Talent</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="visual-card reveal reveal-right">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800" alt="Cyber Security Abstract">
+                        <div class="visual-card-overlay">
+                            <div class="overlay-header">
+                                <div class="icon-box">🛡️</div>
+                                <h4>Next-Gen Risk Management</h4>
+                            </div>
+                            <p>Empowering the next generation of digital leaders with frameworks that matter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container about-container text-center reveal reveal-up">
+                <h5 class="section-label">Our Mission</h5>
+                <h2 class="about-title">
+                    Bridging the gap between <span class="highlight">academia</span> and <span class="highlight">industry</span> to create a safer digital future.
+                </h2>
+                <div class="separator"></div>
+                <p class="about-text">
+                    The Institute of Digital Risk is an industry-led training and deployment institute for digital, cyber, and technology risk roles in regulated, high-consequence environments. 
+                </p>
+                <p class="about-text">
+                    We emphasize the vital link between rigorous academic insight, through our UK university partnerships, and practical, real-world project deployment—ensuring our practitioners are ready for tomorrow's complex digital threats.
+                </p>
+            </div>
+        </section>
+
+        <!-- Service Pillars / Model -->
+        <section id="programs" class="pillars">
+            <div class="container reveal reveal-up">
+                <div class="section-header">
+                    <h2>Core Pillars</h2>
+                    <p>Strategic foundations for a resilient digital ecosystem.</p>
+                </div>
+                
+                <div class="pillars-grid">
+                    <!-- Academy -->
+                    <div class="pillar-card">
+                        <div class="pillar-icon academy-icon">🎓</div>
+                        <h3>Academy</h3>
+                        <p>World-class training programs, professional certifications, and intensive bootcamps designed for real-world application.</p>
+                        <ul class="feature-list">
+                            <li><span class="check academy-check">✓</span> Professional Certs</li>
+                            <li><span class="check academy-check">✓</span> Industry Bootcamps</li>
+                        </ul>
+                    </div>
+
+                    <!-- Innovation & Research -->
+                    <div class="pillar-card hover-blue">
+                        <div class="pillar-icon innovation-icon">🔬</div>
+                        <h3>Innovation & Incubation</h3>
+                        <p>Developing intellectual property, future risk models, and pioneering frameworks for comprehensive AI governance.</p>
+                        <ul class="feature-list">
+                            <li><span class="check innovation-check">✓</span> AI Governance Labs</li>
+                            <li><span class="check innovation-check">✓</span> Future Risk Models</li>
+                        </ul>
+                    </div>
+
+                    <!-- Advisory Services -->
+                    <div class="pillar-card hover-white">
+                        <div class="pillar-icon advisory-icon">🛡️</div>
+                        <h3>Advisory Services</h3>
+                        <p>Expert guidance and consulting to help organizations seamlessly implement robust frameworks like NIST, ISO 27001, and NIS2.</p>
+                        <ul class="feature-list">
+                            <li><span class="check advisory-check">✓</span> Compliance Audits</li>
+                            <li><span class="check advisory-check">✓</span> NIST / ISO 27001</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Pipeline Visual -->
+                <div class="pipeline-visual">
+                    <div class="pipeline-step">
+                        <div class="step-circle">1</div>
+                        <div class="step-text">Train</div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">2</div>
+                        <div class="step-text">Hire</div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">3</div>
+                        <div class="step-text">Innovate</div>
+                    </div>
+                    <div class="pipeline-connector"></div>
+                    <div class="pipeline-step">
+                        <div class="step-circle">4</div>
+                        <div class="step-text">Deploy</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community Section -->
+        <section id="community" class="community">
+            <div class="container community-container">
+                <div class="community-content reveal reveal-left">
+                    <h2>A Thriving Global Community</h2>
+                    <p>
+                        Join a diverse network of students, early-career professionals, and seasoned practitioners in sectors like financial services and critical infrastructure, all seeking upskilling in digital and cyber risk. 
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number orange">500+</div>
+                            <div class="stat-label">Industry Partners</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">20k+</div>
+                            <div class="stat-label">Graduates</div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-outline">Join the Community</a>
+                </div>
+                <div class="community-visuals reveal reveal-right">
+                    <div class="bento-box text-box">
+                        <div class="bento-label">Students</div>
+                        <div class="mock-bars">
+                            <div class="mock-bar full"></div>
+                            <div class="mock-bar md"></div>
+                            <div class="mock-bar lg"></div>
+                        </div>
+                        <div class="bento-quote">Learn & Grow</div>
+                    </div>
+                    <div class="bento-box img-box">
+                        <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&q=80&w=400" alt="Tech students">
+                    </div>
+                    <div class="bento-box img-box">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=400" alt="Professionals meeting">
+                    </div>
+                    <div class="bento-box dark-box">
+                        <span class="bento-title">Partners</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Call to Action -->
+        <section id="contact" class="contact">
+            <div class="container reveal reveal-up">
+                <div class="contact-card">
+                    <div class="contact-glow"></div>
+                    <div class="contact-header">
+                        <h2>Register Your Interest</h2>
+                        <p>Stay updated with our latest programs and research initiatives.</p>
+                    </div>
+                    
+                    <form id="interest-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required aria-describedby="name-error">
+                                <span class="error-text" id="name-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@company.com" required aria-describedby="email-error">
+                                <span class="error-text" id="email-error"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required aria-describedby="message-error"></textarea>
+                            <span class="error-text" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            Register Interest <span class="arrow">➤</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="brand">
+                    <img src="assets/logo-icon.svg" alt="IDR Logo" class="brand-icon-small">
+                    <span class="brand-text">IDR</span>
+                </a>
+                <p>Advancing the science and practice of digital risk management for a secure future.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Programs</h4>
+                <ul>
+                    <li><a href="#">Risk Leadership</a></li>
+                    <li><a href="#">AI Governance</a></li>
+                    <li><a href="#">Cyber Resilience</a></li>
+                    <li><a href="#">Compliance Masters</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Institute</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Research Labs</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li><span class="icon">✉</span> info@idr.edu</li>
+                    <li><span class="icon">📍</span> Tech District, Silicon Valley</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>© 2024 INSTITUTE OF DIGITAL RISK. ALL RIGHTS RESERVED.</p>
+            <div class="legal-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
